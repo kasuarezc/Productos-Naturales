@@ -1,0 +1,318 @@
+[
+  {
+    "id": "cassamo-mussagy",
+    "titulo": "Dr.",
+    "nombre": "Cassamo Ussemane Mussagy",
+    "grupo": "internacional",
+    "institucion": "Pontificia Universidad Católica de Valparaíso, Chile",
+    "nacionalidad": "Mozambique",
+    "perfil": "Licenciado en Ciencias Biológicas y magíster en Biotecnología Industrial (Universidad de Oriente, Cuba). Doctor en Biociencias y Biotecnología (UNESP, Brasil) y Doctor en Ingeniería Química (Universidad de Aveiro, Portugal).",
+    "biografia": [
+      "Investigador y Profesor Asociado en la Escuela de Agronomía de la Pontificia Universidad Católica de Valparaíso, Chile. Su trabajo se enfoca en la biorrefinería, la economía circular y la sostenibilidad.",
+      "Lidera investigaciones para transformar residuos agroindustriales en biomateriales de alto valor e investiga procesos biotecnológicos (upstream y downstream) para producir y recuperar pigmentos y colorantes naturales microbianos aplicados en las industrias de alimentos, cosméticos y biomateriales."
+    ],
+    "ponencia": "Microorganismos como fábricas de productos naturales: potenciando el valor de la biodiversidad latinoamericana",
+    "foto": "img/personas/cassamo.jpg",
+    "orcid": "https://orcid.org/0000-0003-2907-5826",
+    "scholar": "",
+    "enlaces": [
+      { "label": "Perfil PUCV", "url": "https://www.pucv.cl/uuaa/escuela-de-agronomia/cassamo-ussemane-mussagy" }
+    ]
+  },
+  {
+    "id": "marcos-derita",
+    "titulo": "Dr.",
+    "nombre": "Marcos Gabriel Derita",
+    "grupo": "internacional",
+    "institucion": "ICIAGRO Litoral, CONICET – Universidad Nacional del Litoral, Argentina",
+    "nacionalidad": "Argentina",
+    "perfil": "Profesor de Enseñanza Media y Superior en Química y Doctor en Química de la Universidad Nacional de Rosario (Argentina).",
+    "biografia": [
+      "Su investigación se centra en la química de productos naturales y el desarrollo de alternativas sostenibles para el control de enfermedades agrícolas, particularmente en la búsqueda y caracterización de compuestos provenientes de plantas nativas, microorganismos y residuos agropecuarios con actividad antifúngica, biofungicida y bioherbicida, dirigidos al manejo de patógenos de cultivos frutihortícolas, especialmente durante la poscosecha.",
+      "Su trabajo integra química orgánica, fitoquímica, microbiología, fitopatología y biotecnología, con una clara orientación hacia la generación de bioinsumos y tecnologías para una agricultura más sostenible y la valorización de la biodiversidad y los residuos agroindustriales."
+    ],
+    "ponencia": "Productos naturales para el control de enfermedades en la poscosecha de frutas",
+    "foto": "img/personas/derita.jpg",
+    "orcid": "https://orcid.org/0000-0001-8148-936X",
+    "scholar": "",
+    "enlaces": [
+      { "label": "Ficha CONICET", "url": "https://bicyt.conicet.gov.ar/fichas/p/marcos-gabriel-derita" }
+    ]
+  },
+  {
+    "id": "daniel-jacobo",
+    "titulo": "Dr.",
+    "nombre": "Daniel Alberto Jacobo Velázquez",
+    "grupo": "internacional",
+    "institucion": "Tecnológico de Monterrey, México",
+    "nacionalidad": "México",
+    "perfil": "Ingeniero de Alimentos y Magíster en Biotecnología (Tecnológico de Monterrey, México). Doctor en Ciencia y Tecnología de Alimentos (Texas A&M University, EE. UU.).",
+    "biografia": [
+      "Su producción científica se concentra en el estudio de compuestos bioactivos, fitoquímicos, alimentos funcionales, fisiología poscosecha, procesamiento no térmico, antioxidantes y aprovechamiento de subproductos agroindustriales.",
+      "Una de sus principales líneas de investigación consiste en utilizar estímulos abióticos para promover la biosíntesis y acumulación de compuestos fenólicos y otros metabolitos de interés nutracéutico en frutas y hortalizas. Su trabajo también aborda la biofortificación, la valorización de residuos agroalimentarios, la prevención de enfermedades asociadas con el síndrome metabólico y el desarrollo de alimentos funcionales."
+    ],
+    "ponencia": "Biofortificación poscosecha de frutas y hortalizas: de la respuesta al estrés al desarrollo de alimentos funcionales",
+    "foto": "img/personas/jacobo.jpg",
+    "orcid": "https://orcid.org/0000-0002-9478-2570",
+    "scholar": "",
+    "enlaces": [
+      { "label": "Jacobo Lab", "url": "https://jacobolab.com/" },
+      { "label": "Perfil Tec de Monterrey", "url": "https://research.tec.mx/vivo-tec/display/PID_3780" }
+    ]
+  },
+  {
+    "id": "maria-quintanilla",
+    "titulo": "Dra.",
+    "nombre": "María Ximena Quintanilla Carvajal",
+    "grupo": "nacional",
+    "institucion": "Universidad de La Sabana",
+    "nacionalidad": "Colombia",
+    "perfil": "Ingeniera de Producción Agroindustrial (Universidad de La Sabana) y Doctora en Ciencias en Alimentos del Instituto Politécnico Nacional (México). Investigadora Senior.",
+    "biografia": [
+      "Sus temáticas de investigación se basan en el desarrollo de alimentos funcionales a partir de técnicas de micro y nanoencapsulación como electrospinning, gelificación iónica, ventana refractiva y spray drying, entre otras.",
+      "Ha publicado más de 100 artículos científicos en revistas indexadas, 6 capítulos de libro y 2 libros. Actualmente trabaja en la creación de la primera spin-off de la Universidad de La Sabana, INNfood, iniciativa que lidera gracias a su continua colaboración con la industria. A la fecha, es reconocida por la SIC como la mujer con más patentes en Colombia."
+    ],
+    "ponencia": "La encapsulación como estrategia para diseñar alimentos funcionales que modulen microbiota",
+    "foto": "img/personas/quintanilla.jpg",
+    "orcid": "https://orcid.org/0000-0001-8219-7246",
+    "scholar": "",
+    "enlaces": [
+      { "label": "Perfil Unisabana", "url": "https://www.unisabana.edu.co/programas/unidades-academicas/facultad-de-ingenieria/nuestro-equipo/maria-ximena-quintanilla-carvajal" }
+    ]
+  },
+  {
+    "id": "juan-carmona",
+    "titulo": "Dr.",
+    "nombre": "Juan Carlos Carmona Hernández",
+    "grupo": "nacional",
+    "institucion": "Universidad de Manizales",
+    "nacionalidad": "Colombia",
+    "perfil": "Químico (Texas Wesleyan University), Magíster en Desarrollo Sostenible y Medio Ambiente (Universidad de Manizales) y Doctor en Ciencias Biomédicas (Universidad de Caldas).",
+    "biografia": [
+      "En los últimos años se ha enfocado en la identificación, cuantificación y evaluación de la actividad biológica de compuestos fenólicos presentes en frutas y productos vegetales colombianos, evaluando su potencial en la prevención de alteraciones metabólicas.",
+      "Ha investigado la relación entre los polifenoles de frutas tropicales y la salud humana, incluyendo su efecto sobre procesos inflamatorios, estrés oxidativo, ganancia de peso y metabolismo. Más recientemente, su trabajo se ha orientado hacia la valorización de subproductos agroindustriales, especialmente residuos del café, estudiando su contenido de polifenoles y potencial antioxidante para su aprovechamiento en aplicaciones de valor agregado."
+    ],
+    "ponencia": "Beneficio de los polifenoles y flavonoides de frutas amazónicas y tropicales, uso de la parte comestible y subproductos",
+    "foto": "img/personas/carmona.jpg",
+    "orcid": "https://orcid.org/0000-0001-9944-4573",
+    "scholar": "https://scholar.google.com/citations?user=JzRHOt0AAAAJ&hl=es",
+    "enlaces": []
+  },
+  {
+    "id": "diego-durango",
+    "titulo": "Dr.",
+    "nombre": "Diego Luis Durango Restrepo",
+    "grupo": "nacional",
+    "institucion": "Universidad Nacional de Colombia, Sede Medellín",
+    "nacionalidad": "Colombia",
+    "perfil": "Químico, Magíster y Doctor en Ciencias Químicas de la Universidad de Antioquia. Investigador Senior.",
+    "biografia": [
+      "Su trayectoria investigativa se ha centrado en la química de productos naturales, fitoalexinas, metabolitos secundarios y biotransformación de compuestos orgánicos, con especial interés en los mecanismos químicos de defensa de plantas frente a microorganismos fitopatógenos.",
+      "Ha desarrollado investigaciones sobre fríjol, soya, banano y cítricos, incluyendo el aislamiento y caracterización de fitoalexinas y el estudio de elicitores capaces de inducir la producción de compuestos bioactivos. También ha trabajado en biotransformaciones mediante hongos fitopatógenos, aceites esenciales con actividad antifúngica, propóleos y compuestos de interés agroindustrial."
+    ],
+    "ponencia": "Fitoalexinas y elicitores: modelo bioquímico y estructural para el desarrollo de nuevas alternativas de control de hongos fitopatógenos",
+    "foto": "img/personas/durango.jpg",
+    "orcid": "https://orcid.org/0000-0003-3575-1253",
+    "scholar": "",
+    "enlaces": [
+      { "label": "Perfil Hermes UNAL", "url": "http://www.hermes.unal.edu.co/pages/Docentes/Docente.jsf?u=dldurango" }
+    ]
+  },
+  {
+    "id": "monica-avila",
+    "titulo": "Dra.",
+    "nombre": "Mónica Constanza Ávila Murillo",
+    "grupo": "nacional",
+    "institucion": "Universidad Nacional de Colombia",
+    "nacionalidad": "Colombia",
+    "perfil": "Química, Magíster y Doctora en Ciencias – Química de la Universidad Nacional de Colombia. Adscrita al Departamento de Química. Investigadora Senior.",
+    "biografia": [
+      "Sus trabajos se centran en la bioprospección de productos naturales vegetales y hongos endófitos, el estudio químico de aceites esenciales, el análisis instrumental de productos naturales y la generación de productos de valor agregado a partir de biomasa.",
+      "Su producción científica incluye investigaciones sobre flavonoides, alcaloides, fitoquímicos y metabolitos bioactivos de especies vegetales colombianas, especialmente de las familias Lauraceae y Piperaceae, con aplicaciones potenciales antifúngicas, antioxidantes, neuroprotectoras y farmacológicas.",
+      "Más recientemente ha participado en trabajos orientados a la valorización de subproductos agroindustriales, como residuos de pasifloras, y en la búsqueda de compuestos con potencial fotoprotector, cosmético y farmacéutico, integrando la química de productos naturales con enfoques de bioeconomía y aprovechamiento sostenible de la biodiversidad colombiana."
+    ],
+    "ponencia": "Biomasa que transforma: valorización de recursos naturales para el desarrollo de bioproductos",
+    "foto": "img/personas/avila.jpg",
+    "orcid": "https://orcid.org/0000-0003-0859-8353",
+    "scholar": "",
+    "enlaces": [
+      { "label": "Perfil Hermes UNAL", "url": "http://www.hermes.unal.edu.co/pages/Docentes/Docente.jsf?u=mcavilam" }
+    ]
+  },
+  {
+    "id": "natalia-moreno",
+    "titulo": "Dra.",
+    "nombre": "Natalia Moreno Castellanos",
+    "grupo": "nacional",
+    "institucion": "Universidad Industrial de Santander",
+    "nacionalidad": "Colombia",
+    "perfil": "Bacterióloga, Máster en Biotecnología Molecular, Celular y Genética, y Doctora en Biomedicina. Investigadora Senior.",
+    "biografia": [
+      "Su trabajo se ha enfocado particularmente en el estudio de la resistencia a la insulina, el metabolismo del tejido adiposo y los efectos metabólicos de componentes de la dieta, incluyendo la evaluación de ácidos grasos y compuestos bioactivos mediante modelos experimentales.",
+      "También ha participado en investigaciones relacionadas con xilooligosacáridos, alimentos y subproductos vegetales con potencial funcional, y actualmente desarrolla trabajos que exploran alternativas para el tratamiento de alteraciones metabólicas, incluyendo estudios sobre extractos de cáscara de cacao y obesidad."
+    ],
+    "ponencia": "Potencial antiobesogénico de compuestos bioactivos derivados de plantas del oriente colombiano: evidencia in vitro e in vivo",
+    "foto": "img/personas/moreno.jpg",
+    "orcid": "https://orcid.org/0000-0003-2481-3164",
+    "scholar": "",
+    "enlaces": []
+  },
+  {
+    "id": "rafael-campo",
+    "titulo": "MSc.",
+    "nombre": "Rafael Enrique Campo Misas",
+    "grupo": "nacional",
+    "institucion": "Laboratorio QFA Ltda., Cali, Colombia",
+    "nacionalidad": "Colombia",
+    "perfil": "Químico Farmacéutico (Universidad de Cartagena) y Magíster en Formulaciones de Productos Químicos y Derivados (Universidad Icesi).",
+    "biografia": [
+      "Actualmente se desempeña como gerente técnico de Laboratorios QFA Ltda./QFA SAS y es docente de las asignaturas Farmacotecnia y Farmacia Industrial en la Universidad Santiago de Cali.",
+      "Ha desarrollado actividades relacionadas con la investigación de plantas medicinales y la formulación de productos, y ha estado vinculado principalmente al sector de formulación, productos farmacéuticos y productos naturales."
+    ],
+    "ponencia": "Innovación, desarrollo y emprendimiento en la industria fitofarmacéutica de productos naturales",
+    "foto": "img/personas/campo.jpg",
+    "orcid": "",
+    "scholar": "",
+    "enlaces": [
+      { "label": "ResearchGate", "url": "https://www.researchgate.net/profile/Rafael-Campo-Misas" }
+    ]
+  },
+  {
+    "id": "oscar-gamba",
+    "titulo": "Dr.",
+    "nombre": "Óscar Alberto Gamba Vásquez",
+    "grupo": "sequiamaz",
+    "institucion": "Universidad Industrial de Santander",
+    "nacionalidad": "Colombia",
+    "perfil": "Químico y Magíster en Ciencias – Química (Universidad Nacional de Colombia). Doctor en Ciencias Naturales de la Technische Universität Wien (Austria).",
+    "biografia": [
+      "Ha realizado estancias posdoctorales en el área de Química de Superficies y Fisicoquímica Interfacial, y desarrolla actividades de docencia en fisicoquímica.",
+      "Su investigación se orienta al estudio de minerales, la química de superficies y su aplicación en catálisis heterogénea y procesamiento de minerales, así como en la caracterización de materiales."
+    ],
+    "ponencia": "Óxidos de hierro: de la ciencia de superficies en ultra alto vacío a los procesos de flotación",
+    "foto": "img/personas/gamba.jpg",
+    "orcid": "https://orcid.org/0000-0002-3177-1620",
+    "scholar": "https://scholar.google.com/citations?user=2QcfL7IAAAAJ&hl=en",
+    "enlaces": []
+  },
+  {
+    "id": "gian-miscione",
+    "titulo": "Dr.",
+    "nombre": "Gian Pietro Miscione",
+    "grupo": "sequiamaz",
+    "institucion": "",
+    "nacionalidad": "",
+    "perfil": "",
+    "biografia": [],
+    "ponencia": "Integrated Computational and Experimental Discovery of Selective Inhibitors for Drosophila melanogaster Acetylcholinesterase",
+    "foto": "img/personas/miscione.jpg",
+    "orcid": "",
+    "scholar": "",
+    "enlaces": []
+  },
+  {
+    "id": "paula-galeano",
+    "titulo": "Dra.",
+    "nombre": "Paula Galeano García",
+    "grupo": "organizador",
+    "institucion": "Universidad de la Amazonia",
+    "nacionalidad": "Colombia",
+    "perfil": "Química (Universidad de Córdoba), Magíster en Ciencias – Química (Universidad Nacional de Colombia) y Doctora en Ciencias – Química (Universidad de los Andes). Profesora Titular y líder del Grupo de Investigación en Productos Naturales Amazónicos (GIPRONAZ).",
+    "biografia": [
+      "Su trayectoria investigativa se centra en productos naturales, metabolómica, espectrometría de masas y caracterización química de especies vegetales, con énfasis en la bioprospección y el aprovechamiento sostenible de la biodiversidad amazónica.",
+      "Ha realizado estancias de investigación en UNICAMP (Brasil) y el CSIC (España), y cuenta con experiencia en proyectos de investigación, publicaciones científicas y formación de investigadores vinculados al estudio y valorización de los recursos naturales de la Amazonia colombiana."
+    ],
+    "ponencia": "",
+    "foto": "img/personas/galeano.jpg",
+    "orcid": "https://orcid.org/0000-0003-0115-4020",
+    "scholar": "https://scholar.google.com/citations?user=0oVYMmIAAAAJ&hl=es&oi=ao",
+    "enlaces": []
+  },
+  {
+    "id": "magally-paladines",
+    "titulo": "MSc.",
+    "nombre": "Gloria Magally Paladines Beltrán",
+    "grupo": "organizador",
+    "institucion": "Universidad de la Amazonia",
+    "nacionalidad": "Colombia",
+    "perfil": "Química y Magíster en Ciencias Biológicas; estudiante del Doctorado en Ciencias Naturales y Desarrollo Sustentable (Universidad de la Amazonia). Docente Asociada del Programa de Química y coordinadora del Laboratorio de Ensayos Biológicos.",
+    "biografia": [
+      "Con experiencia en investigación sobre la evaluación de la bioactividad de productos naturales, el uso de residuos, la química de los alimentos, la bioquímica vegetal, el estrés oxidativo y la actividad antioxidante, así como en diseño experimental y análisis estadístico.",
+      "Ha publicado artículos científicos sobre las propiedades de frutos regionales de la Amazonía, así como estudios de bioprospección agrícola enfocados en mitigar el estrés por metales pesados en plantas."
+    ],
+    "ponencia": "",
+    "foto": "img/personas/paladines.jpg",
+    "orcid": "https://orcid.org/0000-0001-8252-4892",
+    "scholar": "https://scholar.google.com/citations?user=q_U5S6MAAAAJ&hl=es&oi=sra",
+    "enlaces": []
+  },
+  {
+    "id": "yudy-silva",
+    "titulo": "MSc.",
+    "nombre": "Yudy Lorena Silva Ortíz",
+    "grupo": "editorial",
+    "institucion": "Universidad de la Amazonia",
+    "nacionalidad": "Colombia",
+    "perfil": "Química y Magíster en Ciencias Biológicas; estudiante del Doctorado en Ciencias Naturales y Desarrollo Sustentable (Universidad de la Amazonia). Docente del Programa de Química.",
+    "biografia": [
+      "Ha desarrollado investigaciones sobre los beneficios de frutos amazónicos frente a células cancerígenas, y estudios enfocados en los péptidos antimicrobianos (AMPs) derivados de anfibios y su potencial antioxidante frente al estrés oxidativo y enfermedades relacionadas."
+    ],
+    "ponencia": "",
+    "foto": "img/personas/silva.jpg",
+    "orcid": "https://orcid.org/0009-0009-8518-6310",
+    "scholar": "https://scholar.google.com/citations?user=NT095eMAAAAJ&hl=es&oi=ao",
+    "enlaces": []
+  },
+  {
+    "id": "luz-nerio",
+    "titulo": "Dra.",
+    "nombre": "Luz Stella Nerio Quintana",
+    "grupo": "editorial",
+    "institucion": "Universidad de la Amazonia",
+    "nacionalidad": "Colombia",
+    "perfil": "Química (Universidad de Córdoba) y Doctora en Ciencias – Química (Universidad Nacional de Colombia). Profesora Asociada del Programa de Química y coordinadora del Laboratorio de Transformaciones Químicas.",
+    "biografia": [
+      "Su producción científica se centra en la síntesis de compuestos heterocíclicos, el aislamiento y caracterización de aceites esenciales y la valorización de recursos biológicos de la región amazónica."
+    ],
+    "ponencia": "",
+    "foto": "img/personas/nerio.jpg",
+    "orcid": "https://orcid.org/0000-0002-0303-8069",
+    "scholar": "https://scholar.google.com/citations?user=jLzDxVgAAAAJ&hl=es&oi=ao",
+    "enlaces": []
+  },
+  {
+    "id": "liceth-cuellar",
+    "titulo": "Dra.",
+    "nombre": "Liceth Natalia Cuéllar Álvarez",
+    "grupo": "cientifico",
+    "institucion": "Universidad de la Amazonia",
+    "nacionalidad": "Colombia",
+    "perfil": "Química, Magíster en Ciencias Biológicas y Doctora en Ciencias Naturales y Desarrollo Sustentable (Universidad de la Amazonia). Profesora Titular, investigadora de GIPRONAZ y coordinadora del Laboratorio de Productos Naturales Alberto Fajardo Oliveros.",
+    "biografia": [
+      "Su enfoque científico principal es la química de alimentos funcionales y el aprovechamiento de recursos biológicos locales. Trabaja activamente en evaluar el potencial agroindustrial alimenticio funcional de frutas exóticas de la región amazónica colombiana."
+    ],
+    "ponencia": "",
+    "foto": "img/personas/cuellar.jpg",
+    "orcid": "https://orcid.org/0000-0003-0638-6998",
+    "scholar": "https://scholar.google.com/citations?user=WEL8UA4AAAAJ&hl=es&oi=ao",
+    "enlaces": []
+  },
+  {
+    "id": "jhon-maldonado",
+    "titulo": "Dr.",
+    "nombre": "Jhon Ironzi Maldonado Rodríguez",
+    "grupo": "cientifico",
+    "institucion": "Universidad de la Amazonia",
+    "nacionalidad": "Colombia",
+    "perfil": "Químico (Universidad del Valle), Magíster y Doctor en Ciencias Químicas (Universidad Nacional Autónoma de México – UNAM). Docente e investigador en química orgánica y química de productos naturales.",
+    "biografia": [
+      "Su trayectoria investigativa se ha orientado a la búsqueda, aislamiento, purificación, caracterización y evaluación de compuestos bioactivos de origen natural, con especial interés en metabolitos secundarios de especies vegetales.",
+      "Ha participado en proyectos de investigación relacionados con el estudio fitoquímico y la evaluación de actividades biológicas de extractos y aceites esenciales de especies vegetales. Cuenta con publicaciones científicas nacionales e internacionales, experiencia en formación de estudiantes y participación en congresos especializados en química de productos naturales y plantas medicinales."
+    ],
+    "ponencia": "",
+    "foto": "img/personas/maldonado.jpg",
+    "orcid": "https://orcid.org/0000-0001-6368-4444",
+    "scholar": "https://scholar.google.com/citations?user=C1xrUlQAAAAJ&hl=es&oi=ao",
+    "enlaces": []
+  }
+]

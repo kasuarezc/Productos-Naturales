@@ -1,0 +1,16 @@
+{
+  "oficiales": [
+    { "nombre": "Consejo Profesional de Química de Colombia", "logo": "img/patrocinadores/cpqcol.png", "url": "https://www.cpqcol.gov.co/" },
+    { "nombre": "Kasalab – Equipos científicos para laboratorio", "logo": "img/patrocinadores/kasalab.png", "url": "https://kasalab.com/" },
+    { "nombre": "Laboratorio QFA", "logo": "img/patrocinadores/laboratorio-qfa.png", "url": "https://www.laboratorioqfa.com/" },
+    { "nombre": "ACS Publications", "logo": "img/patrocinadores/acs-publications.png", "url": "https://pubs.acs.org/" }
+  ],
+  "apoyan": [
+    { "nombre": "Blamis – Soluciones Laboratorio", "logo": "img/patrocinadores/blamis.png", "url": "https://blamis.com.co" }
+  ],
+  "organizan": [
+    { "nombre": "Programa de quimica", "logo": "img/organizan/quimica.svg", "url": "https://www.uniamazonia.edu.co/" },
+    { "nombre": "Gipronaz", "logo": "img/organizan/gipronaz.png", "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000012662" },
+    { "nombre": "Vicerrectoria de Investigación e Innovación", "logo": "img/organizan/Vicerrectoria-acreditacion.svg", "url": "https://www.uniamazonia.edu.co/" }
+  ]
+}

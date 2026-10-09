@@ -1,0 +1,73 @@
+/* ==========================================================
+   VARIABLES DE DISEÑO — II Congreso Colombiano de Productos Naturales
+   Cambiar un color aquí lo actualiza en todo el sitio.
+   ========================================================== */
+:root {
+  /* Paleta oficial */
+  --c-olive:  #96A61C;
+  --c-mint:   #E4F2E5;
+  --c-sage:   #84BFA4;
+  --c-teal:   #048C8C;
+  --c-orange: #F28E13;
+
+  /* Derivados */
+  --c-teal-700:  #036B6B;
+  --c-teal-900:  #033F42;
+  --c-olive-700: #75830F;
+  --c-orange-600:#D97706;
+  --c-mint-50:   #F4FAF4;
+  --c-ink:       #13302A;   /* texto principal */
+  --c-ink-soft:  #45605A;   /* texto secundario */
+  --c-line:      #CFE3D3;
+  --c-white:     #FFFFFF;
+
+  /* Degradados */
+  --g-brand:  linear-gradient(135deg, var(--c-teal) 0%, var(--c-sage) 55%, var(--c-olive) 100%);
+  --g-warm:   linear-gradient(135deg, var(--c-orange) 0%, #F6B23B 100%);
+  --g-deep:   linear-gradient(160deg, var(--c-teal-900) 0%, var(--c-teal-700) 60%, #0A5A4A 100%);
+  --g-hero:   linear-gradient(115deg, rgba(3,63,66,.92) 0%, rgba(4,140,140,.70) 45%, rgba(150,166,28,.35) 100%);
+
+  /* Tipografía */
+  --f-display: 'Oswald', 'Arial Narrow', Impact, sans-serif;
+  --f-body: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+
+  /* Escala fluida (móvil → monitor 27") */
+  --fs-xs:   clamp(.75rem, .72rem + .12vw, .82rem);
+  --fs-sm:   clamp(.86rem, .83rem + .15vw, .95rem);
+  --fs-base: clamp(.97rem, .93rem + .2vw, 1.08rem);
+  --fs-md:   clamp(1.1rem, 1.02rem + .35vw, 1.3rem);
+  --fs-lg:   clamp(1.3rem, 1.15rem + .7vw, 1.75rem);
+  --fs-xl:   clamp(1.7rem, 1.35rem + 1.5vw, 2.6rem);
+  --fs-2xl:  clamp(2.1rem, 1.5rem + 2.6vw, 3.8rem);
+  --fs-3xl:  clamp(2.6rem, 1.5rem + 4.4vw, 6rem);
+
+  /* Espaciado */
+  --sp-1: .25rem; --sp-2: .5rem; --sp-3: .75rem; --sp-4: 1rem;
+  --sp-5: 1.5rem; --sp-6: 2rem;  --sp-7: 3rem;   --sp-8: 4rem;
+  --section-y: clamp(3.5rem, 2.5rem + 4vw, 7rem);
+
+  /* Contenedor (crece en pantallas grandes 14" → 27") */
+  --container: 1200px;
+  --gutter: clamp(1rem, .6rem + 2vw, 2rem);
+
+  /* Formas y sombras */
+  --r-sm: 8px; --r-md: 14px; --r-lg: 22px; --r-xl: 32px; --r-pill: 999px;
+  --sh-sm: 0 2px 8px rgba(3,63,66,.08);
+  --sh-md: 0 10px 30px -10px rgba(3,63,66,.25);
+  --sh-lg: 0 24px 60px -18px rgba(3,63,66,.35);
+  --sh-glow: 0 0 0 4px rgba(4,140,140,.18);
+
+  /* Movimiento */
+  --ease: cubic-bezier(.22,.8,.24,1);
+  --ease-bounce: cubic-bezier(.34,1.56,.64,1);
+  --t-fast: .2s; --t-med: .4s; --t-slow: .8s;
+
+  /* Header */
+  --header-h: 84px;
+  --topbar-h: 38px;
+}
+
+@media (min-width: 1600px) { :root { --container: 1400px; --header-h: 92px; } }
+@media (min-width: 2200px) { :root { --container: 1640px; } }
+@media (max-width: 1199px) { :root { --header-h: 72px; } }
+@media (max-width: 640px)  { :root { --header-h: 64px; --topbar-h: 34px; } }

@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "conferencistas-plenarios-confirmados",
+    "titulo": "Confirmados los conferencistas plenarios del congreso",
+    "fecha": "2026-10-05",
+    "categoria": "Conferencistas",
+    "imagen": "img/noticias/conferencistas.jpg",
+    "resumen": "Investigadores de Chile, Argentina, México y Colombia compartirán sus avances en productos naturales, alimentos funcionales y química aplicada.",
+    "contenido": [
+      "El II Congreso Colombiano de Productos Naturales contará con conferencias plenarias de investigadores internacionales vinculados a la Pontificia Universidad Católica de Valparaíso (Chile), el CONICET – Universidad Nacional del Litoral (Argentina) y el Tecnológico de Monterrey (México).",
+      "A ellos se suman investigadores de la Universidad de La Sabana, la Universidad de Manizales, la Universidad Nacional de Colombia, la Universidad Industrial de Santander y Laboratorio QFA, quienes abordarán temas como la encapsulación de alimentos funcionales, los polifenoles de frutas amazónicas, las fitoalexinas y la valorización de biomasa.",
+      "Consulta los perfiles completos, códigos ORCID y títulos de las ponencias en la sección Conferencistas y Comités."
+    ]
+  },
+  {
+    "slug": "florencia-sede-cuatro-eventos",
+    "titulo": "Florencia, Caquetá, sede de cuatro encuentros científicos",
+    "fecha": "2026-10-02",
+    "categoria": "Institucional",
+    "imagen": "img/sede/entrada-udla.jpeg",
+    "resumen": "La Universidad de la Amazonia acogerá el II CCPN, el X SEQUIAMAZ, la V EAAQ y el III Simposio Internacional de Alimentos Funcionales para la Amazonía.",
+    "contenido": [
+      "Del 12 al 14 de mayo de 2027, Florencia será el escenario de un gran encuentro científico que integra cuatro espacios académicos en torno a un propósito común: reconocer, investigar y potenciar la riqueza de los productos naturales y alimentarios de la Amazonía.",
+      "La articulación entre productos naturales, química aplicada, formación científica y alimentos funcionales permite abordar la biodiversidad amazónica desde una perspectiva integral, en diálogo con la cultura y los saberes propios de los territorios."
+    ]
+  },
+  {
+    "slug": "cursos-escuela-andino-amazonica",
+    "titulo": "V Escuela Andino-Amazónica de Química: conoce los cursos",
+    "fecha": "2026-09-28",
+    "categoria": "Escuela EAAQ",
+    "imagen": "img/sede/entrada-uniamazonia.jpg",
+    "resumen": "El 11 de mayo de 2027 se dictarán tres cursos de 4 horas sobre alimentos funcionales, técnicas en ultra alto vacío y control de enfermedades fúngicas.",
+    "contenido": [
+      "La V Escuela Andino-Amazónica de Química es un espacio de formación dirigido especialmente al fortalecimiento de capacidades y a la formación de nuevas generaciones de investigadores.",
+      "Los cursos programados son: Desarrollo y valoración de un alimento funcional (Dr. Daniel A. Jacobo Velázquez), Técnicas en UHV y caracterización superficial (Dr. Óscar Alberto Gamba) y Utilización de productos naturales para el tratamiento de enfermedades fúngicas en cultivo o poscosecha de frutas y hortalizas (Dr. Marcos Gabriel Derita)."
+    ]
+  },
+  {
+    "slug": "patrocinadores-oficiales",
+    "titulo": "Patrocinadores oficiales se suman al congreso",
+    "fecha": "2026-09-24",
+    "categoria": "Patrocinios",
+    "imagen": "img/noticias/patrocinadores.jpg",
+    "resumen": "El Consejo Profesional de Química, Kasalab, Laboratorio QFA y ACS Publications acompañan la realización del evento.",
+    "contenido": [
+      "El Consejo Profesional de Química de Colombia, Kasalab, Laboratorio QFA y ACS Publications son patrocinadores oficiales del II Congreso Colombiano de Productos Naturales.",
+      "Su apoyo fortalece el diálogo entre la academia, el sector productivo y las instituciones, uno de los propósitos centrales de este encuentro."
+    ]
+  }
+]

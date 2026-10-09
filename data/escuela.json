@@ -1,0 +1,9 @@
+{
+  "fecha": "2027-05-11",
+  "cursos": [
+    { "titulo": "Desarrollo y valoración de un alimento funcional", "horas": 4, "persona": "daniel-jacobo", "icono": "food" },
+    { "titulo": "Caracterización superficial de materiales empleando espectroscopía fotoelectrónica de rayos X (XPS)", "horas": 4, "persona": "oscar-gamba", "icono": "atom" },
+    { "titulo": "Utilización de productos naturales provenientes de diversas fuentes para el tratamiento de enfermedades fúngicas en cultivo o poscosecha de frutas y hortalizas", "horas": 4, "persona": "marcos-derita", "icono": "sprout" },
+    { "titulo": "Identificación de metabolitos especializados mediante Espectrometría de Masas en Tándem", "horas": 4, "persona": "Gerson-Dirceu-Lopez", "icono": "molecule" }
+  ]
+}

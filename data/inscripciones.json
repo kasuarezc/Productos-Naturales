@@ -1,0 +1,8 @@
+[
+  { "categoria": "Estudiantes", "valor": 150000, "icono": "cap", "destacado": false },
+  { "categoria": "Graduados UDLA", "valor": 250000, "icono": "book", "destacado": false },
+  { "categoria": "Estudiantes de posgrado", "valor": 250000, "icono": "microscope", "destacado": true },
+  { "categoria": "Docentes UDLA", "valor": 300000, "icono": "flask", "destacado": false },
+  { "categoria": "Profesionales", "valor": 400000, "icono": "beaker", "destacado": false },
+  { "categoria": "Particulares", "valor": 400000, "icono": "user", "destacado": false }
+]

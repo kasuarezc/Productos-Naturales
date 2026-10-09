@@ -1,0 +1,72 @@
+/* ==========================================================
+   ANIMACIONES — keyframes, revelado al hacer scroll, iconos
+   ========================================================== */
+
+/* ---------- Revelado al hacer scroll (assets/js/main.js) ---------- */
+.js .reveal { opacity: 0; transform: translateY(36px); transition: opacity .9s var(--ease), transform .9s var(--ease); transition-delay: var(--d, 0ms); }
+.js .reveal--left  { transform: translateX(-50px); }
+.js .reveal--right { transform: translateX(50px); }
+.js .reveal--zoom  { transform: scale(.88); }
+.js .reveal.is-in { opacity: 1; transform: none; }
+
+/* Texto dividido en palabras (data-split) */
+.split-word { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .08em; }
+.split-word > span { display: inline-block; transform: translateY(105%); transition: transform .9s var(--ease); transition-delay: calc(var(--w) * 70ms + var(--split-delay, 0ms)); }
+.is-in .split-word > span, .split-word.is-in > span { transform: none; }
+
+/* ---------- Iconos con efecto (temática química) ---------- */
+.icon-flask .i-bubble { animation: bubble 2.4s ease-in infinite; opacity: 0; }
+.icon-flask .b2 { animation-delay: .8s; }
+.icon-flask .i-bubble.b3 { animation-delay: 1.6s; }
+.icon-flask .i-liquid { animation: liquid 3s ease-in-out infinite; }
+.icon-atom .i-orbit { transform-origin: 12px 12px; animation: spin 8s linear infinite; }
+.icon-atom .i-nucleus, .icon-molecule .i-nucleus { animation: pulseScale 2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+.icon-hexagon .i-inner { transform-origin: 12px 12px; animation: spin 10s linear infinite reverse; }
+.icon-leaf, .icon-sprout { transform-origin: bottom left; }
+*:hover > .icon-leaf, *:hover > .icon-sprout { animation: sway 1.2s ease-in-out; }
+*:hover > .icon-atom .i-orbit { animation-duration: 1.6s; }
+*:hover > .icon-molecule { animation: wiggle .7s var(--ease); }
+*:hover > .icon-beaker .i-liquid, *:hover > .icon-tube .i-liquid { animation: liquid .9s ease-in-out infinite; }
+*:hover > .icon-globe { animation: spinY 1.2s var(--ease); }
+*:hover > .icon-pin { animation: bounceDown .6s var(--ease); }
+*:hover > .icon-calendar, *:hover > .icon-mail { animation: wiggle .6s var(--ease); }
+
+/* ---------- Keyframes ---------- */
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes spinY { to { transform: rotateY(360deg); } }
+@keyframes orbit { from { transform: rotate(0deg) translateX(34px) rotate(0deg); } to { transform: rotate(360deg) translateX(34px) rotate(-360deg); } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes floatSlow { 0%,100% { transform: translate(0,0) rotate(0); } 50% { transform: translate(10px,-18px) rotate(6deg); } }
+@keyframes sway { 0%,100% { transform: rotate(0); } 30% { transform: rotate(-10deg); } 65% { transform: rotate(6deg); } }
+@keyframes wiggle { 0%,100% { transform: rotate(0); } 25% { transform: rotate(-12deg); } 50% { transform: rotate(9deg); } 75% { transform: rotate(-5deg); } }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(242,142,19,.55); } 70% { box-shadow: 0 0 0 12px rgba(242,142,19,0); } 100% { box-shadow: 0 0 0 0 rgba(242,142,19,0); } }
+@keyframes pulseScale { 0%,100% { transform: scale(1); } 50% { transform: scale(1.35); } }
+@keyframes bubble { 0% { opacity: 0; transform: translateY(2px); } 25% { opacity: 1; } 100% { opacity: 0; transform: translateY(-7px); } }
+@keyframes liquid { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-1.2px); } }
+@keyframes bounceUp { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+@keyframes bounceDown { 0%,100% { transform: translateY(0); } 50% { transform: translateY(4px); } }
+@keyframes ripple { to { transform: scale(4); opacity: 0; } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeOut { to { opacity: 0; } }
+@keyframes modalIn { from { opacity: 0; transform: translateY(40px) scale(.94); } to { opacity: 1; transform: none; } }
+@keyframes modalOut { to { opacity: 0; transform: translateY(30px) scale(.96); } }
+@keyframes shake { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+@keyframes dotProgress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes wave { from { transform: translateX(0) scaleY(1); } to { transform: translateX(-40px) scaleY(1.15); } }
+@keyframes drawRing { to { stroke-dashoffset: 0; } }
+@keyframes emblemIn { from { opacity: 0; transform: scale(.4) rotate(-40deg); } to { opacity: 1; transform: none; } }
+@keyframes logoText { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes kenburns { 0% { transform: scale(1.08) translate(0,0); } 100% { transform: scale(1.22) translate(-2%, -2%); } }
+@keyframes gradientShift { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+@keyframes scrollHint { 0% { transform: translateY(0); opacity: 1; } 80% { transform: translateY(14px); opacity: 0; } 100% { opacity: 0; } }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes drawPath { to { stroke-dashoffset: 0; } }
+@keyframes successPop { 0% { transform: scale(0); } 70% { transform: scale(1.15); } 100% { transform: scale(1); } }
+@keyframes flip { from { transform: rotateX(90deg); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* ---------- Accesibilidad: movimiento reducido ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  .js .reveal { opacity: 1; transform: none; }
+  .split-word > span { transform: none; }
+}

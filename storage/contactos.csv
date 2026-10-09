@@ -1,0 +1,7 @@
+﻿nombre;correo;telefono;institucion;pais;perfil;asunto;mensaje;acepto;fecha;ip;origen
+Pedro;kar.suarez@udla.edu.co;3205195985;"Vicerrectoria de Investigacion";Colombia;Profesional;"Inscripciones y pagos";"prueba del mensaje de contacto";Sí;"2026-10-05 13:45:02";127.0.0.1;localhost/congreso-quimica/
+Karol;kar.suarez@udla.edu.co;3205195985;"Vicerrectoria de Investigacion";Colombia;Profesional;"Inscripciones y pagos";"Prueba del mensaje de contacto";Sí;"2026-10-05 13:52:20";127.0.0.1;localhost/congreso-quimica/
+"Natalia Cedeño";n.cedeno@udla.edu.co;3203792240;Editorial;Colombia;Profesional;"Envío de resúmenes";"Como puedo enviar resumens";Sí;"2026-10-05 14:12:48";127.0.0.1;localhost/congreso-quimica/
+Luz;l.nerio@udla.edu.co;3205554466;"Alcaldia de Florencia";Colombia;"Docente / Investigador";"Envío de resúmenes";"Como puedo enviar el resumen si lo tengo en fisico";Sí;"2026-10-05 14:54:54";127.0.0.1;localhost/congreso-quimica/
+"Karol Andres";kar.suarez@udla.edu.co;3205195985;"Vicerrectoria de Investigacion";Colombia;Profesional;"Inscripciones y pagos";"mensaje de prueba para el correo";Sí;"2026-10-08 13:34:38";127.0.0.1;localhost/congreso-quimica/
+"Karol Andres Suarez";kar.suarez@udla.edu.co;3205195985;Editorial;Colombia;Profesional;"Alojamiento y llegada a Florencia";"coorreo de prueba para el formulario";Sí;"2026-10-08 13:41:26";127.0.0.1;localhost/congreso-quimica/
