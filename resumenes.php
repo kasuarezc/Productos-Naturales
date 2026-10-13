@@ -51,11 +51,11 @@ function gcal(array $f): string
 
 $ejes = [
     ['icon' => 'leaf',  'num' => 'II',  't' => 'Productos naturales', 'evento' => 'II Congreso Colombiano de Productos Naturales',
-     'temas' => ['Descubrimiento, aislamiento y caracterización de compuestos bioactivos', 'Fitoquímica, metabolómica y bioprospección', 'Aplicaciones en salud, farmacia, cosmética y nutracéutica', 'Bioinsumos y valorización de residuos agroindustriales']],
+     'temas' => ['Química de productos naturales', 'Metabolómica y Quimioinformática', 'Bioactividad y Farmacología', 'Biotecnología y Biosíntesis', 'Procesos Sostenibles y Bioproductos', 'Etnobotánica y Etnofarmacología']],
     ['icon' => 'flask', 'num' => 'X',   't' => 'Química aplicada', 'evento' => 'X SEQUIAMAZ',
-     'temas' => ['Química aplicada a los desafíos del contexto amazónico', 'Química de superficies, materiales y catálisis', 'Química computacional y análisis instrumental', 'Transformación y agregación de valor a recursos regionales']],
-    ['icon' => 'food',  'num' => 'III', 't' => 'Alimentos funcionales', 'evento' => 'III Simposio Internacional de Alimentos Funcionales',
-     'temas' => ['Potencial nutricional y funcional de alimentos amazónicos', 'Encapsulación, procesamiento y desarrollo de productos', 'Compuestos bioactivos y salud metabólica', 'Seguridad y soberanía alimentaria']],
+     'temas' => ['Ciencia de Materiales', 'Química Agrícola', 'Química Ambiental', 'Química Computacional', 'Química Industrial']],
+    ['icon' => 'food',  'num' => 'III', 't' => 'Química de alimentos', 'evento' => 'III Simposio Internacional de Alimentos Funcionales',
+     'temas' => ['Potencial nutricional y funcional de alimentos', 'Encapsulación, procesamiento y desarrollo de productos', 'Seguridad y soberanía alimentaria']],
 ];
 ?>
 
