@@ -117,39 +117,37 @@ if (GUARDAR_COPIA_LOCAL) {
 }
 
 // ---------- Envío a Google Apps Script ----------
-$enviadoGoogle = false;
-$detalle = '';
-if (GAS_WEBAPP_URL !== '' && function_exists('curl_init')) {
-    $payload = json_encode(['secret' => GAS_SECRET] + $d, JSON_UNESCAPED_UNICODE);
-    $ch = curl_init(GAS_WEBAPP_URL);
-    curl_setopt_array($ch, [
-        CURLOPT_POST           => true,
-        CURLOPT_POSTFIELDS     => $payload,
-        CURLOPT_HTTPHEADER     => ['Content-Type: application/json'],
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_FOLLOWLOCATION => true,   // Apps Script responde con una redirección
-        CURLOPT_MAXREDIRS      => 5,
-        CURLOPT_CONNECTTIMEOUT => 10,
-        CURLOPT_TIMEOUT        => 25,
-        CURLOPT_SSL_VERIFYPEER => CURL_VERIFY_SSL,
-        CURLOPT_SSL_VERIFYHOST => CURL_VERIFY_SSL ? 2 : 0,
-    ]);
-    $respuesta = curl_exec($ch);
-    $codigo = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $detalle = curl_error($ch);
-    curl_close($ch);
-    $json = json_decode((string) $respuesta, true);
-    $enviadoGoogle = $codigo === 200 && is_array($json) && !empty($json['ok']);
-    if (!$enviadoGoogle && $detalle === '') {
-        $detalle = 'HTTP ' . $codigo . ' ' . mb_substr((string) $respuesta, 0, 200);
-    }
+require_once INC_PATH . '/google.php';
+$g = enviar_google($d);
+$enviadoGoogle = $g['ok'];
+$detalle = $g['detalle'];
+if (!$enviadoGoogle) {
+    registrar_error('Google: ' . $detalle . ' | método=' . $g['metodo'] . ' | csv=' . ($guardadoLocal ? 'sí' : 'no'));
+}
+if (GUARDAR_COPIA_LOCAL && !$guardadoLocal) {
+    registrar_error('No se pudo escribir storage/contactos.csv (verifique permisos de escritura de la carpeta storage)');
 }
 
-if ($enviadoGoogle || $guardadoLocal) {
+// ---------- Respaldo 3: correo directo desde el servidor ----------
+$enviadoMail = false;
+if (!$enviadoGoogle && function_exists('mail')) {
+    $cuerpo = "Nuevo mensaje desde el sitio web (respaldo: Google no respondió)\n\n";
+    foreach (['nombre', 'correo', 'telefono', 'institucion', 'pais', 'perfil', 'asunto', 'fecha'] as $k) {
+        $cuerpo .= ucfirst($k) . ': ' . $d[$k] . "\n";
+    }
+    $cuerpo .= "\nMensaje:\n" . $d['mensaje'] . "\n";
+    $host = preg_replace('/[^a-z0-9.\-]/i', '', $_SERVER['HTTP_HOST'] ?? 'localhost');
+    $cabeceras = "MIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n"
+        . 'From: Sitio web Congreso <no-responder@' . $host . ">\r\n"
+        . 'Reply-To: ' . str_replace(["\r", "\n"], '', $d['correo']) . "\r\n";
+    $enviadoMail = @mail($SITE['correo'], '=?UTF-8?B?' . base64_encode('[Congreso PN] ' . $d['asunto'] . ' – ' . $d['nombre']) . '?=', $cuerpo, $cabeceras);
+}
+
+if ($enviadoGoogle || $guardadoLocal || $enviadoMail) {
     $_SESSION['envios'][] = $ahora;
     $resp = ['ok' => true, 'mensaje' => '¡Gracias! Hemos recibido tu mensaje.'];
     if (ENTORNO === 'local') {
-        $resp['debug'] = ['google' => $enviadoGoogle, 'csv' => $guardadoLocal, 'detalle' => $detalle];
+        $resp['debug'] = ['google' => $enviadoGoogle, 'csv' => $guardadoLocal, 'mail' => $enviadoMail, 'detalle' => $detalle];
     }
     responder(200, $resp);
 }
