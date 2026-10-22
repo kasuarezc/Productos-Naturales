@@ -201,7 +201,9 @@ $ejes = [
           <div class="price__icon"><?= icon($t['icono'] ?? 'flask') ?></div>
           <h3 class="price__cat"><?= e($t['categoria']) ?></h3>
           <p class="price__val"><small>$</small><span><?= number_format((int) $t['valor'], 0, ',', '.') ?></span></p>
+          <p class="price__desc"><small>$</small><span><?= number_format((int) $t['desc'], 0, ',', '.') ?></span><br/><small>Sin descuento</small></p>
           <span class="price__cur">COP · valor unitario</span>
+          <span class="price__cupos"><?= $t['cupos'] ?? 0 ?> cupos disponibles</span>
         </article>
       <?php endforeach; ?>
     </div>

@@ -99,6 +99,20 @@ $comites = [
   </div>
 </section>
 
+<!-- 4. CONFERENCISTAS DE ESCUELA -->
+ <section class="section section--soft" id="escuela" aria-labelledby="escuela-t">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Integrantes de Escuela</span>
+      <h2 class="section-title" id="escuela-t">Conferencistas de la <em>escuela</em></h2>
+      <p class="section-lead">Investigadores que guiarán los talleres y laboratorios de la escuela de verano del congreso.</p>
+    </div>
+    <div class="people-grid people-grid--3">
+      <?php foreach (personas(['escuela']) as $i => $p) echo person_card($p, $i); ?>
+    </div>
+  </div>
+</section>
+
 <!-- 4. PROGRAMA PLENARIO -->
 <section class="section section--mint" id="plenarias" aria-labelledby="plenarias-t">
   <div class="container container--narrow">

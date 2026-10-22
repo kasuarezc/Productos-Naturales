@@ -180,6 +180,8 @@
 .price__val { font-family: var(--f-display); font-size: clamp(2rem, 1.6rem + 1.5vw, 2.8rem); color: var(--c-teal-900); line-height: 1; }
 .price__val small { font-family: var(--f-body); font-size: .9rem; color: var(--c-ink-soft); font-weight: 700; margin-right: .2rem; }
 .price__cur { display: block; margin-top: .4rem; font-size: var(--fs-xs); font-weight: 700; letter-spacing: .1em; color: var(--c-ink-soft); text-transform: uppercase; }
+.price__desc { font-family: var(--f-display); font-size: clamp(1rem, 1.6rem + 1.5vw, 1.8rem); color: #94a41b; line-height: 1; }
+.price__cupos { display: block; margin-top: .4rem; font-size: var(--fs-xs); font-weight: 700; letter-spacing: .1em; color: #F28E13; text-transform: uppercase; }
 .price--featured { border-color: var(--c-orange); background: linear-gradient(180deg, #FFF8EE, #fff); }
 .price--featured .price__icon { background: var(--c-orange); color: #fff; }
 .price__ribbon { position: absolute; top: 18px; right: -38px; transform: rotate(45deg); background: var(--c-orange); color: #fff; font-size: .62rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; padding: .3rem 2.6rem; }

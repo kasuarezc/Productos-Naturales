@@ -6,7 +6,9 @@
     { "nombre": "ACS Publications", "logo": "img/patrocinadores/acs-publications.png", "url": "https://pubs.acs.org/" }
   ],
   "apoyan": [
-    { "nombre": "Blamis – Soluciones Laboratorio", "logo": "img/patrocinadores/blamis.png", "url": "https://blamis.com.co" }
+    { "nombre": "Blamis – Soluciones Laboratorio", "logo": "img/patrocinadores/blamis.png", "url": "https://blamis.com.co" },
+    { "nombre": "AYAKUNA", "logo": "img/patrocinadores/AYAKUNA.png", "url": "https://www.instagram.com/mujeresayakuna/" },
+    { "nombre": "Puramazonia Zomac SAS BIC", "logo": "img/patrocinadores/puramazonia.png", "url": "https://puramazonia.com/" }
   ],
   "organizan": [
     { "nombre": "Programa de quimica", "logo": "img/organizan/quimica.svg", "url": "https://www.uniamazonia.edu.co/" },

@@ -314,5 +314,42 @@
     "orcid": "https://orcid.org/0000-0001-6368-4444",
     "scholar": "https://scholar.google.com/citations?user=C1xrUlQAAAAJ&hl=es&oi=ao",
     "enlaces": []
+  },
+  {
+    "id": "gerson-lopez",
+    "titulo": "Dr.",
+    "nombre": "Gerson Dirceu López",
+    "grupo": "escuela",
+    "institucion": "Universidad del Valle",
+    "nacionalidad": "Colombia",
+    "perfil": "Químico (Universidad del Valle), Magíster y Doctor en Química (Universidad de los Andes). Docente e investigador en química analítica y aprovechamiento sostenible de biomateriales.",
+    "biografia": [
+      "Su trabajo integra técnicas avanzadas como LC-MS/MS para el análisis dirigido de metabolitos, incluyendo estudios sobre carotenoides en Staphylococcus aureus y su relación con el estrés oxidativo.",
+      "Ha desarrollado investigaciones orientadas al aprovechamiento de residuos agroindustriales colombianos -como la cáscara de marañón (Anacardium occidentale)- para la obtención de compuestos fenólicos, ácidos grasos y bioproductos con potencial en cosmética, biodiésel y formulaciones sostenibles. Asimismo, ha participado en iniciativas de innovación educativa mediante aprendizaje basado en proyectos aplicado a comunidades rurales. Su producción científica refleja una articulación entre química, sostenibilidad e impacto social, promoviendo el uso responsable y de alto valor agregado de recursos naturales."
+    ],
+    "ponencia": "",
+    "foto": "img/personas/gerson.jpg",
+    "orcid": "https://orcid.org/0000-0001-5621-8410",
+    "scholar": "",
+    "enlaces": []
+  },
+  {
+    "id": "lizbeth-lopez",
+    "titulo": "Dra.",
+    "nombre": "Lizbeth Lorena López",
+    "grupo": "escuela",
+    "institucion": "Universidad del Valle",
+    "nacionalidad": "Colombia",
+    "perfil": "Químico (Universidad del Valle), Magíster Química Orgánica (Universidad del Valle). Doctorado en Química Orgánica y Biológica (Universidade de São Paulo, Brasil). Investigadora en Productos y Alimentos - GIPNA.",
+    "biografia": [
+      "Se desempeña como docente e investigadora en el Departamento de Química de la Facultad de Ciencias Naturales y Exactas de la Universidad del Valle, donde participa en el Grupo de Investigación en Productos Naturales y Alimentos (GIPNA)",
+      "Desarrolla investigación orientada al descubrimiento de sustancias bioactivas de organismos marinos y al desarrollo de posibles agentes antimicrobianos."
+    ],
+    "ponencia": "",
+    "foto": "img/personas/lizbeth.jpg",
+    "orcid": "https://orcid.org/0000-0001-7183-2291",
+    "scholar": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001348833",
+    "enlaces": []
   }
+
 ]

@@ -206,7 +206,7 @@ $fechas = data('fechas');
     </div>
     <?php if (!empty($patro['apoyan'])): ?>
     <div class="sponsors-group">
-      <p class="sponsors-label">Apoyan</p>
+      <p class="sponsors-label">Aliados Amazónicos</p>
       <div class="sponsors sponsors--sm">
         <?php foreach ($patro['apoyan'] as $p): ?>
           <a class="sponsor reveal reveal--zoom" href="<?= e($p['url'] ?: '#') ?>" target="_blank" rel="noopener" title="<?= e($p['nombre']) ?>">

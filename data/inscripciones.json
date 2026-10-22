@@ -1,8 +1,8 @@
 [
-  { "categoria": "Estudiantes", "valor": 150000, "icono": "cap", "destacado": false },
-  { "categoria": "Graduados UDLA", "valor": 250000, "icono": "book", "destacado": false },
-  { "categoria": "Estudiantes de posgrado", "valor": 250000, "icono": "microscope", "destacado": true },
-  { "categoria": "Docentes UDLA", "valor": 300000, "icono": "flask", "destacado": false },
-  { "categoria": "Profesionales", "valor": 400000, "icono": "beaker", "destacado": false },
-  { "categoria": "Particulares", "valor": 400000, "icono": "user", "destacado": false }
+  { "categoria": "Estudiantes", "valor": 160000, "desc": 215000, "icono": "cap", "cupos": 250, "destacado": false },
+  { "categoria": "Graduados UDLA", "valor": 200000, "desc": 250000, "icono": "book", "cupos": 25, "destacado": false },
+  { "categoria": "Estudiantes de posgrado", "valor": 200000, "desc": 250000, "icono": "microscope", "cupos": 30, "destacado": true },
+  { "categoria": "Docentes UDLA", "valor": 240000, "desc": 300000, "icono": "flask", "cupos": 30, "destacado": false },
+  { "categoria": "Profesionales", "valor": 400000, "desc": 480000, "icono": "beaker", "cupos": 50, "destacado": false },
+  { "categoria": "Particulares", "valor": 400000, "desc": 480000, "icono": "user", "cupos": 20, "destacado": false }
 ]
