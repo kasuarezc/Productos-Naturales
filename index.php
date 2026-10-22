@@ -180,7 +180,7 @@ $fechas = data('fechas');
         <?php if ($l = enlace($LINKS['envio_resumenes'])): ?>
           <a class="btn btn--light" href="<?= e($l) ?>" target="_blank" rel="noopener"><?= icon('upload') ?><span>Enviar resumen</span></a>
         <?php else: ?>
-          <a class="btn btn--light" href="#" data-pendiente="El enlace de envío de resúmenes se habilitará próximamente."><?= icon('upload') ?><span>Enviar resumen</span></a>
+          <a class="btn btn--light" href="https://www.nozomiscience.org/index.php/rpn/es/about/submissions" target="_blank" rel="noopener"><?= icon('upload') ?><span>Enviar resumen</span></a>
         <?php endif; ?>
       </article>
     </div>

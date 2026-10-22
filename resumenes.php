@@ -177,7 +177,7 @@ $ejes = [
         <?php if (($l = enlace($LINKS['envio_resumenes'])) && $convocatoriaAbierta): ?>
           <a class="btn btn--light" href="<?= e($l) ?>" target="_blank" rel="noopener"><?= icon('upload') ?><span>Enviar resumen</span></a>
         <?php else: ?>
-          <a class="btn btn--light" href="#" data-pendiente="<?= $hoy < $abre ? 'El envío de resúmenes abre el ' . e($fechas[0]['fecha_texto']) . '.' : 'El enlace de envío se publicará próximamente.' ?>"><?= icon('upload') ?><span>Enviar resumen</span></a>
+          <a class="btn btn--light" href="https://www.nozomiscience.org/index.php/rpn/es/about/submissions" target="_blank" rel="noopener"><?= icon('upload') ?><span>Enviar resumen</span></a>
         <?php endif; ?>
       </article>
     </div>
